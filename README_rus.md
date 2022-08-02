@@ -36,6 +36,15 @@ minikube ip
 
 ### shopper-db
 
+Для конфигурирования базы данных необходимо в корне проекта создать файл `.env` следующего вида:
+
+```
+POSTGRES_HOST=postgres-service
+POSTGRES_DB=postgres
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=123
+```
+
 В репозитории проекта `shopper-db` в директории `k8s` выполнить скрипт
 
 ```shell

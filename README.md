@@ -36,6 +36,15 @@ After getting `ip` add the next line at the end of the `/etc/hosts/` file (`<ip>
 
 ### shopper-db
 
+For database connection you need to create `.env` file in the root of the project
+
+```
+POSTGRES_HOST=postgres-service
+POSTGRES_DB=postgres
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=123
+```
+
 In `shopper-db` repository in `k8s` directory run script
 
 ```shell
