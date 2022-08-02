@@ -61,3 +61,9 @@ Check service availability
 ```shell
 $ curl arch.homework/health
 ```
+
+Run tests
+
+```shell
+$ newman run shopper-api.postman_collection.json
+```

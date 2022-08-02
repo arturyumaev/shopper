@@ -61,3 +61,9 @@ $ ./k8s.sh up
 ```shell
 $ curl arch.homework/health
 ```
+
+Запустить тесты
+
+```shell
+$ newman run shopper-api.postman_collection.json
+```
